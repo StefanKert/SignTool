@@ -1,0 +1,48 @@
+{
+  "_from": "file:..\\..\\_build\\Tasks\\Common\\securefiles-common-1.0.0.tgz",
+  "_id": "securefiles-common@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-TprhSSqVpBYWar0tIUKXjkC6yYW3Y7hqHF8FtURvTFhonQdK4AoFvga/hucuP7p+EyT/IZFFczWLg8GEOkx5Aw==",
+  "_location": "/securefiles-common",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "C:\\Users\\stefan.kert\\Documents\\GitHub\\vsts-tasks\\Tasks\\DownloadSecureFile",
+    "raw": "file:..\\..\\_build\\Tasks\\Common\\securefiles-common-1.0.0.tgz",
+    "rawSpec": "file:..\\..\\_build\\Tasks\\Common\\securefiles-common-1.0.0.tgz",
+    "saveSpec": "file:..\\..\\_build\\Tasks\\Common\\securefiles-common-1.0.0.tgz",
+    "fetchSpec": "C:\\Users\\stefan.kert\\Documents\\GitHub\\vsts-tasks\\_build\\Tasks\\Common\\securefiles-common-1.0.0.tgz"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "C:\\Users\\stefan.kert\\Documents\\GitHub\\vsts-tasks\\_build\\Tasks\\Common\\securefiles-common-1.0.0.tgz",
+  "_spec": "file:..\\..\\_build\\Tasks\\Common\\securefiles-common-1.0.0.tgz",
+  "_where": "C:\\Users\\stefan.kert\\Documents\\GitHub\\vsts-tasks\\Tasks\\DownloadSecureFile",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/vsts-tasks/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "vso-node-api": "^6.1.2-preview",
+    "vsts-task-lib": "^2.0.3-preview"
+  },
+  "deprecated": false,
+  "description": "VSTS Tasks SecureFiles Common",
+  "homepage": "https://github.com/Microsoft/vsts-tasks#readme",
+  "license": "MIT",
+  "main": "securefiles-common.js",
+  "name": "securefiles-common",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Microsoft/vsts-tasks.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "4df4abb0-38d5-11e8-9466-7fef5455a13d",
+  "name": "SignTool",
+  "friendlyName": "Sign Tool",
+  "description": "Codesigning assembly and .exe files",
+  "author": "Stefan Kert",
+  "helpMarkDown": "Replace with markdown to show in help",
+  "category": "Utility",
+  "visibility": ["Build", "Release"],
+  "demands": [],
+  "version": {
+    "Major": "0",
+    "Minor": "1",
+    "Patch": "7"
+  },
+  "minimumAgentVersion": "2.116.0",
+  "instanceNameFormat": "SignFile",
+  "inputs": [
+    {
+      "name": "secureFileId",
+      "type": "secureFile",
+      "label": "Secure File",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown":
+        "Select the secure file to download to a temporary location on the agent. The file will be cleaned up after the build or release."
+    },
+    {
+      "name": "signCertPassword",
+      "type": "string",
+      "label": "Secure File Password",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": ""
+    },
+    {
+      "name": "filePath",
+      "type": "filePath",
+      "label": "File to Sign",
+      "defaultValue": "**\\*.dll",
+      "required": true,
+      "helpMarkDown":
+        "Relative path from repo root to the files that should be signed."
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": "signtool.js"
+    }
+  }
+}
