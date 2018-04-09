@@ -11,10 +11,10 @@
   "version": {
     "Major": "0",
     "Minor": "1",
-    "Patch": "7"
+    "Patch": "18"
   },
   "minimumAgentVersion": "2.116.0",
-  "instanceNameFormat": "SignFile",
+  "instanceNameFormat": "SignTool",
   "inputs": [
     {
       "name": "secureFileId",

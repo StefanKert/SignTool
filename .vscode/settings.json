@@ -3,6 +3,7 @@
     "**/.git": true,
     "**/.DS_Store": true,
     "**/*.js": true,
-    "**/*.js.map": true
+    "**/*.js.map": true,
+    "node_modules": true
   }
 }

@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "tsc && tfx build tasks upload --task-path .",
+    "package": "tsc && tfx extension create --manifest-globs vss-extension.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "securefiles-common": "file:securefiles-common",
     "vso-node-api": "^6.5.0",
     "vsts-task-lib": "^2.4.0"
   },
